@@ -65,7 +65,7 @@ namespace Calculator_Date_
         }
         private void Button1_Click(object sender, EventArgs e)
         {
-            richTextBox1.AppendText("=>");
+            richTextBox1.AppendText("=>"); 
         }
         private void Form1_Load(object sender, EventArgs e)
         {
