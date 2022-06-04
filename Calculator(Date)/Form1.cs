@@ -69,6 +69,7 @@ namespace Calculator_Date_
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Доброго времени суток");
             MessageBox.Show("\t\t\tНАПОМИНАНИЕ!!!\n"
                             + "Количество месяцев в году 12\n"
                             + "Количество дней в месяце если это четные месяца кроме Февраля, Августа и Декабря - 30\n"
