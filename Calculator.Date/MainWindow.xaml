@@ -1,0 +1,21 @@
+﻿<Window x:Class="Calculator.Date.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator.Date"
+        mc:Ignorable="d"
+        Title="Date Calculator" Height="400" Width="450">
+	<Grid>
+		<Label Content="Enter Dates:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+		<RichTextBox x:Name="richTextBoxDates" HorizontalAlignment="Left" Height="100" Margin="10,35,0,0" VerticalAlignment="Top" Width="420"/>
+
+		<Label Content="Result:" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top"/>
+		<RichTextBox x:Name="richTextBoxResult" HorizontalAlignment="Left" Height="100" Margin="10,180,0,0" VerticalAlignment="Top" Width="420" IsReadOnly="True"/>
+
+		<Button x:Name="buttonCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Width="100" Click="ButtonCalculateClick"/>
+		<Button x:Name="buttonClear" Content="Clear" HorizontalAlignment="Left" Margin="120,300,0,0" VerticalAlignment="Top" Width="100" Click="ButtonClearClick"/>
+		<Button x:Name="buttonComma" Content="," HorizontalAlignment="Left" Margin="230,300,0,0" VerticalAlignment="Top" Width="100" Click="ButtonCommaClick"/>
+		<Button x:Name="buttonArrow" Content="=>" HorizontalAlignment="Left" Margin="340,300,0,0" VerticalAlignment="Top" Width="90" Click="ButtonArrowClick"/>
+	</Grid>
+</Window>
